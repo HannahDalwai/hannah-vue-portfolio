@@ -1,29 +1,17 @@
 <template>
   <Landing/>
   <Navbar/>
-  
    <section id="about" class="about-mf sect-pt4 route">
     <About/>
-    </section><!-- End About Section -->
-
-   <br>
-
+    </section><!-- End About Section --><br>
     <section id="resume" class="resume"> 
-      
-      
       <div class="section-title">
           <h1 class="display-5">Resume</h1>
           <div class="line-mf"></div>
-        </div>
-<br>
-
+        </div><br>
       <div class="container box-shadow-full">
-
-       
-
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-         
             <h3 class="resume-title">Experience</h3>
             <div class="resume-project">
               <h4>Occasional Volunteer</h4>
@@ -31,7 +19,6 @@
               <p><em>Muizenberg Bowling Club</em></p>
               <p>Providing occasional volunteered help for club events.</p>
               <p>084 625 6913 (Former President)</p>
-
             </div>
             <div class="resume-project">
               <h4>Lifesaver in Training</h4>
@@ -64,12 +51,10 @@
                 <li>Swam for three years on the schools swimming team</li>
                 <li>Member of the Public Speaking club.</li>
                 <p>021 712 0284</p>
-
               </ul>
             </div>
           </div>
         </div>
-
       </div>
     </section><!-- End Resume Section -->
       <br>
@@ -95,8 +80,7 @@
               <div class="service-content">
                 <h2 class="s-title">Web Design</h2>
                 <p class="s-description text-center">
-                 Cultivating memorable user experiences on websites/web apps. Includes appearance, layout, and content of a website.
-               <br> <br><br>
+                 Cultivating memorable user experiences on websites/web apps. Includes appearance, layout, and content of a website.<br> <br><br>
                 </p>
               </div>
             </div>
@@ -131,10 +115,7 @@
         </div>
       </div>
     </section><!-- End Services Section -->
-    </section>
-
-
-<br>
+    </section><br>
  <!-- <NewNav/> -->
 <section id="project" >
                      <h1 id="project-title" class="display-5">
@@ -158,15 +139,10 @@
   </div>
 </div>
   </div>
-</section>
-
-<br> <br> <br> 
+</section><br> <br> <br> 
 <section id="testimonials">
     <h1 class="display-5" >References</h1>
-    <div class="line-mf"></div><br>
-        <!-- <div v-for="testimonial in testimonials" :key="testimonial._id" > -->
-
-            
+    <div class="line-mf"></div><br><!-- <div v-for="testimonial in testimonials" :key="testimonial._id" > -->
 <div class="container">
   <div class="row">
     <div class="col-sm-3" v-for="testimonial in testimonials" :key="testimonial._id" >
@@ -180,11 +156,8 @@
 </div>
     </div>
   </div>
-</div>
-
-        <!-- </div> -->
+</div><!-- </div> -->
 </section>
-
 <br><br><br><br>
   <section id="contact"> 
     <h1 class="display-5" >Get in touch</h1>
@@ -192,7 +165,6 @@
           <br>
             <Contact/>
 </section>
-
 </template>
 <script>
 import Contact from '../components/Contact.vue'
@@ -212,7 +184,6 @@ data() {
     projects:[]
   }
 },
-
 mounted(){
  fetch('https://h-portfolio-api.herokuapp.com/testimonials')
   .then((res) => res.json())
@@ -228,24 +199,14 @@ mounted(){
       this.projects = data
     })
 },
-
-
 methods: {
   fixArrayID(arr) {
   return arr.forEach((item, index) => item.id = index + 1)
 },
 },
-
-
- 
-
 }
 </script>
-
-
 <style scoped>
-
-
 .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -265,7 +226,7 @@ methods: {
   color: #fff;
   text-decoration: none;
 }
-.cards {
+/* .cards { */
   /* display: flexbox; */
   /* grid-template-columns: auto auto auto;  */
   /* max-width: 1170px; */
@@ -273,7 +234,7 @@ methods: {
   /* grid-gap: 9px; */
   /* align-items: center; */
   /* width: 100%; */
-}
+/* } */
 .card {
   max-width: 100%;
   height: 450px;
@@ -284,7 +245,6 @@ methods: {
   transition: all ease .6s;
   margin-inline: auto;
 }
-
 .pic {
   position: absolute;
   top: 0;
@@ -327,7 +287,6 @@ methods: {
 .ttl:hover {
   transform: translateY(-12px);
 }
-
 .ttl .h2 {
   font-size: 21px;
   color: white;
@@ -343,7 +302,6 @@ methods: {
   margin: 0 auto;
   margin-top: 21px;
 }
-
 @media (min-width: 0) and (max-width: 575px) {
   .cards {
     grid-template-columns: 100%;
@@ -403,10 +361,6 @@ methods: {
     max-width: 100%;
   }
 }
-
-
-
-
 #logomi{
 height: 60%;
 width: 50%;
@@ -419,26 +373,22 @@ object-fit: contain;
 .title-box {
   margin-bottom: 4rem;
 }
-
 .title-a {
   text-decoration: none;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
-
 .subtitle-a {
   text-decoration: none;
   color: #4e4e4e;
 }
-
 .line-mf {
   width: 40px;
   height: 5px;
   background-color: #0d7988;
   margin: 0 auto;
 }
-
 .paralax-mf {
   position: relative;
   padding: 8rem 0;
@@ -447,7 +397,6 @@ object-fit: contain;
 .title-box-2 {
   margin-bottom: 3rem;
 }
-
 .title-left {
   font-size: 2rem;
   position: relative;
@@ -460,12 +409,10 @@ object-fit: contain;
   width: 100px;
   bottom: -12px;
 }
-
 .box-pl2 {
   padding-left: 2rem;
   margin-top: 100px;
 }
-
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
@@ -479,19 +426,16 @@ object-fit: contain;
     padding: 3rem;
   }
 }
-
 .table-cell {
   display: table-cell;
   vertical-align: middle;
 }
-
 /* LandingAbout */
  #profile{
   width:100% ;
   height:100% ;
     border: 1px solid #008080;
  }
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
 }
@@ -546,7 +490,6 @@ object-fit: contain;
   background: #fff;
   border: 2px solid #008080;
 }
-
 /* SERVICES */
 .service-box {
   background-color: #fff;
@@ -554,7 +497,6 @@ object-fit: contain;
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
- 
 }
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
@@ -607,9 +549,7 @@ object-fit: contain;
 .box-shadow, .card-blog, .work-box, .service-box, .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
-
 /* project */
-
 
 /* testimonials new */
 .testimonial-box {
@@ -652,6 +592,4 @@ object-fit: contain;
     padding: 0 8rem;
   }
 }
-
-
 </style>
