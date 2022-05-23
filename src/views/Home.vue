@@ -145,7 +145,7 @@
     <div class="line-mf"></div><br><!-- <div v-for="testimonial in testimonials" :key="testimonial._id" > -->
 <div class="container">
   <div class="row">
-    <div class="col-sm-3" v-for="testimonial in testimonials" :key="testimonial._id" >
+    <div class="col-sm-3 col-lg-4 col-md-6" v-for="testimonial in testimonials" :key="testimonial._id" >
 <div class="card" style="width: 18rem;">
 <img class="testi-img" :src="testimonial.imgURL" alt="" srcset="">
   <div class="card-body">
