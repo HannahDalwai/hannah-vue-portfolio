@@ -40,7 +40,7 @@ a {
 header {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.315)), url('https://i.postimg.cc/RVgCVZF4/bootiful.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.315)), url('https://i.postimg.cc/yNVWMtGR/mountains-1412683-1280.png');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;

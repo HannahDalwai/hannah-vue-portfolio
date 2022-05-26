@@ -14,11 +14,10 @@
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Experience</h3>
             <div class="resume-project">
-              <h4>Occasional Volunteer</h4>
-              <h5>2016-2019</h5>
-              <p><em>Muizenberg Bowling Club</em></p>
-              <p>Providing occasional volunteered help for club events.</p>
-              <p>084 625 6913 (Former President)</p>
+              <h4>Assistant Lecturer</h4>
+              <h5>Apr 2022 - Present</h5>
+              <p><em>Life Choices Coding Academy </em></p>
+              <p></p>
             </div>
             <div class="resume-project">
               <h4>Lifesaver in Training</h4>
@@ -31,12 +30,12 @@
             <h3 class="resume-title">Education</h3>
             <div class="resume-project">
               <h4>Student</h4>
-              <h5>20th Sept 2021 - Present</h5>
+              <h5>20th Sept 2021 - March 2022</h5>
               <p><em>Life Choices Academy</em></p>
               <ul>
                 <li>Studying various coding languages and skills. .</li>
                 <li>Both front end and back end over a 6 month period</li>
-                <li>As well as working with different softwares such as Ubuntu.</li>
+                <li>As well as working with different softwares such as Linux and Windows.</li>
                 <li>Partook in Personal Development training.</li>
                 <p>021 696 4157</p>
               </ul>
@@ -419,7 +418,7 @@ object-fit: contain;
   background-color: #fff;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
 }
 @media (min-width: 768px) {
   .box-shadow-full {
@@ -502,7 +501,7 @@ object-fit: contain;
   transition: all 500ms ease;
   color: #fff;
   background-color: #008080;
-  box-shadow: 0 0 0 10px #a2c0c0;
+  /* box-shadow: 0 0 0 10px #a2c0c0; */
 }
 .service-box .service-ico {
   margin-bottom: 1rem;
