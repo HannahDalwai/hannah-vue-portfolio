@@ -17,7 +17,13 @@
               <h4>Assistant Lecturer</h4>
               <h5>Apr 2022 - Present</h5>
               <p><em>Life Choices Coding Academy </em></p>
-              <p></p>
+              <p>Assisting students with issues in their code as well as explaining concepts.
+                 Managing the learning management system. 
+                 Marking projects and code review.
+                 Overseeing hardware pre and post lessons.
+                 Administration.
+                 Remote learner support when needed.
+              </p>
             </div>
             <div class="resume-project">
               <h4>Lifesaver in Training</h4>
